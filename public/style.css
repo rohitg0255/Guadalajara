@@ -1,0 +1,76 @@
+:root {
+  --ff-serif: "Open Sans", sans-serif;
+  --clr-primary: white;
+  --clr-secondary: black;
+  --clr-accent: #ea4335;
+  --clr-focus: #1a73e8;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: var(--ff-serif);
+  color: var(--clr-secondary);
+  font-size: 1.125rem;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  border-radius: 0.25rem;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--clr-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h2,
+h3 {
+  font-family: var(--ff-serif);
+  line-height: 0.8;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 0.5rem;
+}
+
+p {
+  margin-bottom: 0.85em;
+}

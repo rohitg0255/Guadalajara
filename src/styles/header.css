@@ -1,0 +1,38 @@
+header{
+    background-color: transparent;
+    color: var(--clr-primary);
+    width: 100%;
+    text-align: center;
+    position:fixed;
+    z-index: 1;
+    transition: background-color 0.5s,color 0.5s;
+    padding-top: 0.25rem;
+}
+
+.sticky {
+    background-color: var(--clr-primary);
+    color: var(--clr-secondary);
+    transition: background-color 0.5s,color 0.5s;
+  }
+
+.logo a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+nav a{
+    display: inline-block;
+    padding: 0.25em;
+    color: inherit;
+    text-decoration: none;
+}
+
+

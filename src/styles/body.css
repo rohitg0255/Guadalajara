@@ -1,0 +1,185 @@
+.primary{
+    background-color: transparent;
+    border: 1.5px solid var(--clr-primary);
+}
+
+.accent{
+    background-color: var(--clr-accent);
+}
+
+.secondary{
+    background-color: var(--clr-secondary);
+}
+
+.love {
+  background-color: #555;
+  background-image: url(../images/love.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  color: var(--clr-primary);
+  padding: 35vh 0;
+  margin-bottom: 1rem;
+}
+
+.shaped {
+  background-color: var(--clr-accent);
+  color: var(--clr-primary);
+  padding: 2rem 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.shaped > h2 {
+  margin-bottom: 1.5rem;
+}
+
+.left {
+  grid-area: left;
+  max-height: 100%;
+}
+.right {
+  grid-area: right;
+  max-height: 100%;
+}
+
+/* .left,.right{
+  width: 80%;
+  height: 20%;
+  overflow: hidden;
+} */
+
+.gcard {
+  display: grid;
+  grid-template-areas: "left right";
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  max-width: 45rem;
+  overflow: hidden;
+}
+
+.tile_body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  align-items: center;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.featured{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    padding: 1rem 0.5rem;    
+    gap: 1rem;
+    max-width: 40rem;
+}
+
+.f-item1{
+    width: 100%;
+    /* padding: 0 1rem; */
+    text-align: left;
+}
+
+.f-item1 h2{
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+.f-item2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.f-item2 img{
+    height: 100%;
+}
+
+.f-item3 {
+    width: 100%;
+    text-align: left;
+}
+
+.f-item3 p{
+    margin: 0;
+}
+
+.f-item4{
+    text-align: start;
+}
+
+.kisses{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  gap: 1rem;
+}
+
+.up h2{
+  padding-bottom: 0.5rem;
+}
+
+.down{
+  margin: 0 0.5rem;
+  padding: auto 0;
+  position: relative;
+}
+
+.previous,.next{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.previous button,
+.next button{
+  border: 1px solid;
+  text-decoration: none;
+}
+
+.previous button object,
+.next button object{
+  z-index: 1;
+  pointer-events: none;
+}
+
+.next{
+  right: 0;
+}
+
+.bunch {
+    padding: 1rem;
+}
+
+.bunch > .card {
+    justify-content: center;
+    gap: 10px;
+   padding: auto 0;
+  background-color: #555;
+  background-image: url(../images/fly.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  color: var(--clr-primary);
+  width: 100%;
+  height: 50vh;
+}
+
+.blob-opera >.card{
+    width: 100%;
+}
