@@ -8,16 +8,16 @@ const Footer = () => {
       <h1>Discover More</h1>
       <div className="d-more__items">
         <div className="d-more__item story">
-          <p>Stories</p>
+          <p><a href="https://artsandculture.google.com/search/exhibit?project=love">Stories</a></p>
         </div>
         <div className="d-more__item art">
-          <p>Artworks and Artifacts</p>
+          <p><a href="https://artsandculture.google.com/search/asset?project=love">Artworks and Artifacts</a></p>
         </div>
         <div className="d-more__item video">
-          <p>Videos</p>
+          <p><a href="https://artsandculture.google.com/search/video?project=love">Videos</a></p>
         </div>
         <div className="d-more__item collection">
-          <p>Collections</p>
+          <p><a href="https://artsandculture.google.com/search/partner?project=love">Collections</a></p>
         </div>
       </div>
     </div>
